@@ -1,0 +1,748 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, h3 {
+	font-family: 'Noto Serif', serif;
+	background-color: #e8e8e8;
+}
+
+.nav, .navsesionesclub, .contenedorsesiones, button, .ariadna, .protección_datos, .checkbox{
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color:  #1c1c1c;
+}
+
+main a {
+	text-decoration: none;
+}
+
+p a {
+	color: #9b1700;
+}
+
+p a:hover {
+	color: #1c1c1c;
+}
+
+
+
+
+
+
+/*header*/
+
+header {
+	width:100%;
+	height:33vh;
+	text-align: center;
+	margin-bottom: 15vh;
+}
+
+.logo {
+	font-weight: bold;
+	color: #000000;
+	font-size: 2.5rem;
+	text-decoration: none;
+	display: grid;
+    grid-template-columns: 37% 60%;
+    column-gap: 3%;
+	margin-top: 15px;
+}
+
+.imagen_logo {
+	text-align: right;
+}
+
+.texto_logo {
+	padding-top: 10px;
+	text-align: left;
+	color: #000000;
+}
+
+.logo a{
+	text-decoration: none;
+}
+
+.logo a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.club {
+	color: #9b1700;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.img_logo {
+	width: 70px;
+	height: auto;
+}
+
+.nav ul li {
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 1.10rem;
+	list-style: none;
+}
+
+.nav ul li a {
+	color: #1c1c1c;
+	text-decoration: none;
+	border-bottom:none;
+}
+
+.nav ul li a:hover {
+	opacity: 0.5; 
+}
+
+.nav ul li a:active {
+	font-weight: bold;
+	font-style: italic;
+}
+
+button {
+	color: #FFFFFF;
+	width: 150px;
+	height: 40px;
+	background-color: #9b1700;
+	font-size: 1.10rem;
+	border-radius: 7px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+button:hover {
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+button a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+@media screen and (min-width: 600px) {
+	header {
+		width:100%;
+		height:100px;
+		margin-bottom: 0px;
+		display: flex;
+     	align-items: center;
+        justify-content: space-between;
+		align-self: flex-start;
+	}
+
+	.logo {
+		display: grid;
+     	grid-template-columns: 30% 65%;
+  	    column-gap: 5%;
+		padding: 0vw;
+	}
+
+
+	.nav ul li {
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	button {
+		margin-right: 1vw;
+	}
+	
+	button:first-child {
+		order: 1;
+    }
+}
+
+
+
+
+
+/*main*/
+
+
+/*Index*/
+
+h1 {
+	padding-top: 9vh;
+	margin-bottom: 4vh;
+	font-size: 1.6rem;
+}
+
+.iconos {
+	margin-bottom: 8vh;
+}
+
+.iconos figure img {
+	width:auto;
+	height:27vh;
+}
+
+.iconos figure {
+	margin-bottom: 3vh;
+}
+
+.formularioclub {
+	text-align: left;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.formularioclub p {
+	margin-left: 0vw;
+	margin-right: 0vw;
+	margin-bottom: 5vh;
+	margin-top: 0.2vh;
+}
+
+.col1 p {
+	font-size: 1.6rem;	
+}
+
+.formulario {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.formulario input {
+	width:100%;
+	height:7.5vh;
+	margin-bottom: 2vh;
+	border: 1px solid;
+	border-color:  #1c1c1c; 
+	font-size: 1.3rem;
+	color:   #989898;
+}
+
+.protección_datos {
+	font-size: 0.75rem;
+}
+
+.checkbox {
+	font-size: 0.75rem;
+}
+
+.col2 button {
+	width: 200px;
+	height: 60px;
+	font-size: 1.20rem;
+	margin-top: 1vh;
+	margin-bottom: 17vh;
+}
+
+
+
+/*clubes temáticos*/
+
+.veremos {
+	width: 87vw;
+	margin: auto;
+	text-align: left;
+}
+
+.veremos div img {
+	width: 100%;
+	height: auto;
+}
+
+.veremos p {
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 0vw;
+	margin-right: 0vw;
+}
+
+.galardonados,
+.espacio,
+.intriga,
+.época,
+.románticos,
+.nacional {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+h2 {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+.h2 {
+	display: grid;
+    grid-template-columns: 60px 350px;
+  	column-gap: 15px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.puntos {
+    border-bottom: 5px dotted #9b1700;
+    width: 60px;
+	display: flex;
+	align-self: center;
+}
+
+
+/*sesiones 2020*/
+
+
+.sesiones2020, 
+.sesionesclub {
+	width: 87vw;
+	margin: auto;
+}
+
+.sesiones2020 {
+	text-align: left;
+	margin-bottom: 10vh;
+}
+
+.sesiones2020 h1{
+	text-align: center;
+}
+
+.sesiones2020 p{
+	margin-bottom: 2vh;
+	margin-left: 0vw;
+    margin-right: 0vw;
+}
+
+h3 {
+	font-size: 1.6rem;
+    text-align: left;
+	margin-top: 4vh;	
+    margin-bottom: 2vh;	
+}
+
+.navsesionesclub nav {
+	margin-bottom: 4vh;
+}
+
+.navsesionesclub nav ul li {
+	text-align: left;
+	list-style: none;
+}
+
+.navsesionesclub nav ul li a{
+	color: #1c1c1c;
+	text-decoration: none;
+	border-bottom:none;
+}
+
+.navsesionesclub ul li a:hover {
+	opacity: 0.5; 
+}
+
+.contsesionesclub h2 {
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contsesionesclub .h2 {
+	display: grid;
+    grid-template-columns: 30px 350px;
+  	column-gap: 20px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.contsesionesclub .puntos {
+    border-bottom: 5px dotted #9b1700;
+    width: 30px;
+	display: flex;
+	align-self: center;
+}
+
+.películas {
+	margin-top: 2vh;
+	margin-bottom: 10vh;
+}
+
+.contenedorsesiones {
+	width: 250px;
+	height: auto;
+	margin: auto;
+	background-color: #FFFFFF;
+	font-size: 1 rem;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 2px 10px #666;
+	text-align: left;
+    color: #9b1700;	
+	margin-bottom: 2vh;
+}
+
+.contenedorsesiones img {
+	width: 250px;
+	height: auto;
+	padding-bottom: 15px;
+}
+
+.contenedorsesiones p{
+	padding-bottom: 1vh;
+	margin-left: 1vh;
+}
+
+.contenedorsesiones a{
+	text-decoration: none;
+	color: #9b1700;
+}
+
+.contenedorsesiones a:hover{
+	opacity: 0.5;
+}
+
+
+/*klaus*/
+
+.ariadna {
+	padding-top: 7vh;
+	padding-bottom: 5vh;
+}
+
+.ariadna ul li{
+	display: inline-block;
+}
+	
+.separador-ariadna::after {
+	content: " / ";
+}
+
+.ariadna ul li a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+.ariadna ul li a:hover{
+	opacity: 0.5;
+}
+
+.ariadna ul li:last-child {
+	opacity: 0.5;
+}
+
+.título_klaus {
+	width: 87vw;
+	margin: auto;
+}
+
+.ficha_klaus {
+	width: 87vw;
+	margin: auto;
+}
+
+.ficha_klaus p{
+	width: 80vw;
+	margin: auto;
+	text-align: left;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+h4 {
+	width: 87vw;
+	margin: auto;
+	font-size: 1.1rem;	
+	text-align: left;
+	border-bottom: 1px solid;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.sinopsis_director_trailer p{
+	width: 87vw;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.Sergio_Pablos {
+	width: 150px;
+	height: auto;
+	border-radius:150px;
+	float: left;
+	margin-right: 2vw;
+	shape-outside: circle(50%);
+}
+
+#trailer_klaus {
+	font-size: 0.9rem;
+	margin-top: 0vh;
+	padding-bottom: 7vh;
+}
+
+.mayús {
+	font-size: 1.1rem;
+}
+
+iframe {
+	width: 100%;
+	padding-bottom: 0vh;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+	.Sección1a {
+		width: 55vw;
+		margin: auto;
+	}
+
+    .Sección2a {
+		width: 65vw;
+		margin: auto;
+	}
+
+	.iconos {
+		min-width: 800px;
+		display: grid;
+     	grid-template-columns: 21% 20% 20% 21%;
+  	    column-gap: 6%;
+	}
+
+	.iconos figure img {
+		width:auto;
+		height:20vh;
+	}
+
+    .Sección3a {
+		width: 70vw;
+		margin: auto;
+	}
+
+    .formularioclub {
+		display: grid;
+     	grid-template-columns: 45% 45%;
+  	    column-gap: 10%;
+	}
+	
+	.veremos {
+		width: 1150px;
+		margin: auto;
+	    display: grid;
+     	grid-template-columns: 32% 32% 32%;
+  	    column-gap: 2%;
+    }
+	
+	h2 {
+	    font-size: 1.4rem;
+	    font-weight: 400;
+    }
+	
+	.sesiones2020{
+		width: 900px;
+		margin: auto;
+	}
+	
+	.sesionesclub{
+		width: 1150px;
+		margin: auto;
+		border-top: 5px dotted #9b1700;
+		margin-top: 7vh;
+		display: grid;
+     	grid-template-columns: 20% 75%;
+  	    column-gap: 5%;
+	}
+	
+	.contenedorsesiones {
+		height: 440px;
+    }
+	
+	#extra1,
+    #extra2,
+    #extra3	{
+		height: 490px;
+	}
+	
+	.contenedorsesiones img{
+		position: relative;
+        top: 0;
+    }
+	
+	.título_peli{
+		position: relative;
+        bottom: 0;
+    }
+	
+	.contsesionesclub {
+		margin-top: 7vh;
+	}
+	
+	.películas {
+	    display: grid;
+     	grid-template-columns: 32% 32% 32%;
+  	    column-gap: 2%;
+	}
+	
+	.ariadna {
+		width: 1150px;
+		margin: auto;
+		text-align: left;
+	}
+	
+	.título_klaus {
+		width: 1150px;
+		margin: auto;
+		font-size: 2rem;
+	}
+
+    .ficha_klaus {
+		width: 1150px;
+		margin: auto;
+    	display: grid;
+     	grid-template-columns: 40% 55%;
+  	    column-gap: 5%;
+    }
+
+    .ficha_klaus p{
+	    width: 92%;
+		margin: auto;
+    }
+
+    h4 {
+	    width: 100%;
+    }
+
+    .sinopsis_director_trailer p{
+	    width: 100%;
+		text-align: justify;
+	}
+
+    iframe {
+	    width: 632px;
+	    height: 355px;
+}
+
+	
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+	width:100%;
+	height:375px;
+	color: #FFFFFF;
+	background-color: #433A44;
+    font-size: 0.80rem;	  
+}
+	
+.enlaces,
+.columna3,
+.subir	{
+    margin-left: 10px;	
+    margin-right: 10px;	
+}
+	
+.enlaces	{
+    padding-top: 40px;
+	text-align: center;
+}
+	
+.columna1{
+	margin-top: 20px; 
+	}
+	
+.columna2 {
+	margin-top: 60px; 
+	}
+	
+.columna1 ul li{
+	list-style: none;
+	margin-top: 7px;
+	}
+	
+.columna2 ul li{
+	list-style: none;
+	margin-top: 7px;
+	}
+	
+.columna3 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 0.70rem;
+	}
+	
+.columna3 p {
+	margin-top: 5px;
+	}
+	
+.subir {
+	text-align: right;
+    font-size: 1.5rem;	
+    margin-top: 0px;		
+	}
+
+footer a {
+	color: #FFFFFF;
+    text-decoration:none;	
+}
+
+footer a:hover {
+	color: #9b1700;
+}
+
+@media screen and (min-width: 600px) {
+	
+	footer {
+	  width:100%;
+	  height:210px;	  
+	}
+	
+    .enlaces	{
+		padding-top: 0px;
+		display: grid;
+        grid-template-columns: 61% 37%;
+        column-gap: 2%;
+	}
+	
+	.columna1{
+		text-align: left;
+	    margin-top: 60px; 
+	}
+	
+	.columna2 {
+		text-align: right;
+	    margin-top: 60px; 
+	}
+	
+	.columna1 ul li{
+		display: inline-block;
+	}
+	
+	.columna2 ul li{
+		display: inline-block;
+	}
+	
+	.separador-footer::after {
+	content: " • ";
+	width: 10px;
+    }
+	
+	.columna3 {
+		text-align: left;
+	}
+	
+	.subir {
+		margin-top: 5px;		
+	}
+}
