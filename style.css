@@ -46,6 +46,8 @@ header {
 }
 
 .logo {
+	width: 100%;
+	margin: auto;
 	font-weight: bold;
 	color: #000000;
 	font-size: 2.5rem;
@@ -146,12 +148,17 @@ button a:visited {
 	}
 
 	.logo {
+		width: 100px;
+	    margin: 5px;
 		display: grid;
      	grid-template-columns: 30% 65%;
   	    column-gap: 5%;
 		padding: 0vw;
 	}
 
+    .texto_logo {
+	    margin-left: 50px;
+    }
 
 	.nav ul li {
 		display: inline-block;
