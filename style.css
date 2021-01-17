@@ -54,7 +54,6 @@ header {
     grid-template-columns: 37% 60%;
     column-gap: 3%;
 	margin-top: 15px;
-	margin-left: 15px;
 }
 
 .imagen_logo {
